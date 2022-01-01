@@ -1,0 +1,30 @@
+Data Structures
+- Vector
+- Deque
+- List
+- Map
+- UnorderedMap
+- Set
+- UnorderedSet
+- Stack
+- Queue
+- PriorityQueue
+- Heap
+
+Trees
+- Binary Tree
+- Red/Black Tree
+- AVL Tree
+
+Sort Algorithms
+- Insertion Sort
+- Selection Sort
+- Bubble Sort
+- Merge Sort
+- Quick Sort
+
+
+Quality of Life improvements:
+- Document CMake files
+- Better test management to track success percentage and failing tests
+    - Find library or impl
