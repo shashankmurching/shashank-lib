@@ -1,12 +1,19 @@
-
+#include <assert.h> 
 #include <vector.hpp>
 #include <iostream>
 
-int main() {
+
+void testDefaultConstructor() {
     SL::vector<int> v;
-    std::cout << "Running Vector Tests" << std::endl;
+    assert(v.size() == 0);
+    assert(v.capacity() == 0);
+}
 
-    std::cout << "Finished Running Vector Tests" << std::endl;
-
+int main() {
+    testDefaultConstructor();
     return 0;
 }
+
+// all tests should run fully -> and report error?
+
+

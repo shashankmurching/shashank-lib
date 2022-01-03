@@ -24,10 +24,7 @@ rebuild() {
 
 tester() {
   rebuild
-  cd tests
-
-  echo "Running Tests Now..."
-  ./testlib
+  make test
 }
 
 
